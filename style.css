@@ -82,6 +82,7 @@ header{ padding: 22px 0 10px; }
   background: radial-gradient(circle, rgba(255,255,255,0.18), transparent 60%);
   animation: swirl 4.8s linear infinite;
 }
+/*might need to make this gradient look better later it clashes with the text a little bit right now and makes it a bit hard to read.12/28/2025 */
 @keyframes swirl{
   from{ transform: rotate(0deg); }
   to{ transform: rotate(360deg); }
