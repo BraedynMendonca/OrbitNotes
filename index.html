@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orbit Notes</title>
+  <meta name="description" content="A small space-themed corner of the web." />
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="container">
+    <div class="topbar">
+      <a class="brand" href="index.html" aria-label="Home">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="name">
+          <strong>Orbit Notes</strong>
+          <span>tiny signal • deep space</span>
+        </div>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Dock</a></li>
+          <li><a href="lab.html">Module</a></li>
+          <li><a href="about.html">Crew</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="hero" aria-label="Intro">
+      <div class="hero-inner">
+        <div>
+          <h1>Broadcast received. Welcome aboard.</h1>
+          <p>
+            This is my little space station on the internet — calm, clean, and quietly glowing.
+            I like projects that feel “designed” without being loud.
+          </p>
+
+          <div class="callout">
+            The tiny logo is my favorite detail — it slowly swirls like a mini galaxy.
+          </div>
+
+          <div class="pills">
+            <a class="chip" href="#log">Mission log</a>
+            <a class="chip" href="lab.html">Go to the Module</a>
+            <a class="chip" href="about.html#contact">Open comms</a>
+          </div>
+
+          <div class="mood">
+            <label for="toggle" class="hint">Life support switch:</label>
+            <input id="toggle" type="checkbox" aria-label="A small decorative toggle switch" />
+            <span class="hint">it does nothing, but it feels official</span>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img src="lostinspace.png" alt="A space-themed image that sets the mood of the site" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="main" class="container">
+    <section class="grid" id="log">
+      <article class="card">
+        <h2>Mission log</h2>
+        <p>
+          I wanted a small site that feels like a control panel: simple, readable, and a little futuristic.
+          Over time, I’ll add more “modules.”
+        </p>
+        <ul class="list">
+          <li>Short pages you can click through</li>
+          <li>Small details that make it feel alive</li>
+          <li>Links to places that teach real web skills</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Signal sources</h2>
+        <p>
+          Two sites I keep open whenever I’m building something:
+        </p>
+        <p>
+          <a class="button" href="https://developer.mozilla.org/" target="_blank" rel="noreferrer">MDN Docs</a>
+          &nbsp;
+          <a class="button" href="https://hackclub.com/" target="_blank" rel="noreferrer">Hack Club</a>
+        </p>
+        <p class="small">Try <kbd>Tab</kbd> to move through controls.</p>
+      </article>
+
+      <article class="card">
+        <h2>Current interests</h2>
+        <p>
+          Things I’m orbiting around right now:
+        </p>
+        <ol class="list">
+          <li>clean UI that feels “space-grade”</li>
+          <li>tools that save time</li>
+          <li>turning ideas into shipped projects</li>
+        </ol>
+        <p><a class="button" href="lab.html">Enter the Module</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Next transmission</h2>
+        <p>
+          I’m keeping this site focused. If something gets added, it’s because it earns its place.
+        </p>
+        <p><a class="button" href="about.html">Meet the Crew</a></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div>
+        <strong>Orbit Notes</strong>
+        <div class="small">end of transmission</div>
+      </div>
+      <div class="small">
+        <a href="index.html">Dock</a> • <a href="lab.html">Module</a> • <a href="about.html">Crew</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
